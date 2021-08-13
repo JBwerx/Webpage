@@ -1,0 +1,58 @@
+body{
+  background-color: black;
+  height:100%;
+}
+
+#logoBox{
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+#skull{
+  margin-left: 15%;
+  width: 5%;
+}
+
+#logo{
+  height: 1%;
+  width: 50%;
+  margin-left: 5%;
+  margin-right: 25%;
+}
+
+#menu{
+  display: grid;
+  position: fixed;
+  grid-column: 10%;
+  width: 8vw;
+  color: red;
+}
+
+#contactButton:hover{
+  color: white;
+}
+
+#showsButton:hover{
+  color: white;
+}
+
+#contactButton:hover{
+  color: white;
+}
+
+#collageBox{
+  display: Flex;
+}
+
+.collagePic{
+ width: 35%;
+ margin-left: 32%;
+ cursor: pointer;
+}
+
+#contactBox{
+  padding-top: 5vw;
+  color: red;
+  text-align: center;
+}
