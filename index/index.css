@@ -9,17 +9,11 @@ body{
   align-items: center;
 }
 
-#skull{
-  margin-left: 15%;
-  width: 5%;
-}
-
 #logo{
   height: 1%;
   width: 50%;
-  margin-left: 5%;
+  margin-left: 25%;
   margin-right: 25%;
-  padding-right: 0vw;
 }
 
 #siteMenu{
@@ -42,21 +36,28 @@ body{
   color: white;
 }
 
-#collageBox{
+#pictureBox{
   display: Flex;
 }
 
-.collagePic{
- width: 35%;
- margin-left: 32%;
- cursor: pointer;
+.picture{
+ width: 50vw;
+ margin-left: 25vw;
 }
 
 #socialMenu{
   display: grid;
   position: fixed;
   color: red;
-  flex: right;
+  right: 0px;
+}
+
+.socialMediaLogo{
+  width: 6vw;
+}
+
+#facebookLogo{
+  padding-top: 2vw;
 }
 
 #bioBox{
@@ -64,6 +65,5 @@ body{
   margin-left: 15%;
   margin-right: 13vw;
   text-align: center;
+  padding-top: 5vh;
 }
-
-/*test for github*/

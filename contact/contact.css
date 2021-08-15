@@ -21,7 +21,7 @@ body{
   margin-right: 25%;
 }
 
-#menu{
+#siteMenu{
   display: grid;
   position: fixed;
   grid-column: 10%;
@@ -41,11 +41,26 @@ body{
   color: white;
 }
 
-#collageBox{
+#socialMenu{
+  display: grid;
+  position: fixed;
+  color: red;
+  right: 0px;
+}
+
+#pictureBox{
   display: Flex;
 }
 
-.collagePic{
+.socialMediaLogo{
+  width: 6vw;
+}
+
+#facebookLogo{
+  padding-top: 2vw;
+}
+
+.picture{
  width: 35%;
  margin-left: 32%;
  cursor: pointer;
