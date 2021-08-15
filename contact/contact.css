@@ -9,15 +9,10 @@ body{
   align-items: center;
 }
 
-#skull{
-  margin-left: 15%;
-  width: 5%;
-}
-
 #logo{
   height: 1%;
   width: 50%;
-  margin-left: 5%;
+  margin-left: 25%;
   margin-right: 25%;
 }
 
@@ -48,10 +43,6 @@ body{
   right: 0px;
 }
 
-#pictureBox{
-  display: Flex;
-}
-
 .socialMediaLogo{
   width: 6vw;
 }
@@ -60,10 +51,13 @@ body{
   padding-top: 2vw;
 }
 
+#pictureBox{
+  display: Flex;
+}
+
 .picture{
- width: 35%;
- margin-left: 32%;
- cursor: pointer;
+ width: 50vw;
+ margin-left: 25vw;
 }
 
 #contactBox{

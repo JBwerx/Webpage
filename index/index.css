@@ -36,15 +36,6 @@ body{
   color: white;
 }
 
-#pictureBox{
-  display: Flex;
-}
-
-.picture{
- width: 50vw;
- margin-left: 25vw;
-}
-
 #socialMenu{
   display: grid;
   position: fixed;
@@ -60,10 +51,23 @@ body{
   padding-top: 2vw;
 }
 
+#pictureBox{
+  display: Flex;
+}
+
+.picture{
+ width: 50vw;
+ margin-left: 25vw;
+}
+
 #bioBox{
   color: white;
   margin-left: 15%;
   margin-right: 13vw;
   text-align: center;
   padding-top: 5vh;
+}
+
+#deathComesRipping{
+  padding-bottom: 5vw;
 }
